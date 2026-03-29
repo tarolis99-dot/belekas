@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  /* High-tech neon akcentas */
+  --rentalize-neon: #39ff14;
+  --rentalize-neon-hover: #32c616;
+  --rentalize-surface-dark: #0a0a0a;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+.customer-toggle .btn-option.checked {
+  border-color: #111;
+  color: #111;
+  background: #fff;
+  font-weight: 600;
+}
+.customer-toggle .btn-option:not(.checked) {
+  border-color: #e5e7eb;
+  color: #6b7280;
+  background: transparent;
+}

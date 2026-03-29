@@ -1,0 +1,950 @@
+{
+  "byOfferUrl": {
+    "https://mybee.lt/rent/tesla/model3/1579": {
+      "brand": "TESLA",
+      "model": "Model 3"
+    },
+    "https://mybee.lt/rent/vw/id.3/1421": {
+      "brand": "VOLKSWAGEN",
+      "model": "ID.3"
+    },
+    "https://mybee.lt/rent/cupra/born/1534": {
+      "brand": "CUPRA",
+      "model": "Born"
+    },
+    "https://mybee.lt/rent/jeep/avenger/1785": {
+      "brand": "JEEP",
+      "model": "Avenger"
+    },
+    "https://mybee.lt/rent/toyota/corollacross/2163": {
+      "brand": "TOYOTA",
+      "model": "Corollacross"
+    },
+    "https://mybee.lt/rent/nissan/qashqai/2212": {
+      "brand": "NISSAN",
+      "model": "Qashqai"
+    },
+    "https://mybee.lt/rent/vw/golfvariant/2218": {
+      "brand": "VOLKSWAGEN",
+      "model": "Golfvariant"
+    },
+    "https://mybee.lt/rent/vw/t-roc/2217": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "https://mybee.lt/rent/vw/tiguan/2207": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan"
+    },
+    "https://mybee.lt/rent/ford/puma/1422": {
+      "brand": "FORD",
+      "model": "Puma"
+    },
+    "https://mybee.lt/rent/cupra/formentor/2059": {
+      "brand": "CUPRA",
+      "model": "Formentor"
+    },
+    "https://mybee.lt/rent/kia/sportage/2251": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "https://mybee.lt/rent/vw/t-cross/2232": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Cross"
+    },
+    "https://mybee.lt/rent/renault/master/1381": {
+      "brand": "RENAULT",
+      "model": "Master"
+    },
+    "https://mybee.lt/rent/mg/zs/2237": {
+      "brand": "MG",
+      "model": "Zs"
+    },
+    "https://mybee.lt/rent/skoda/octavia/2088": {
+      "brand": "Škoda",
+      "model": "Octavia"
+    },
+    "https://mybee.lt/rent/skoda/kodiaq/2211": {
+      "brand": "Škoda",
+      "model": "Kodiaq"
+    },
+    "https://mybee.lt/rent/mercedes-benz/citan/1591": {
+      "brand": "Mercedes-Benz",
+      "model": "Citan"
+    },
+    "https://mybee.lt/rent/skoda/kamiq/2140": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "https://mybee.lt/rent/cupra/formentor/2245": {
+      "brand": "CUPRA",
+      "model": "Formentor"
+    },
+    "https://mybee.lt/rent/kia/sportage/2215": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "https://mybee.lt/rent/kia/sportage/1772": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "https://mybee.lt/rent/cupra/formentor/2247": {
+      "brand": "CUPRA",
+      "model": "Formentor"
+    },
+    "https://mybee.lt/rent/vw/t-cross/2230": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Cross"
+    },
+    "https://mybee.lt/rent/vw/t-roc/2233": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "https://mybee.lt/rent/vw/t-roc/2235": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "https://mybee.lt/rent/mg/zs/2228": {
+      "brand": "MG",
+      "model": "Zs"
+    },
+    "https://mybee.lt/rent/vw/t-cross/2231": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Cross"
+    },
+    "https://mybee.lt/rent/kia/sportage/2240": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "https://mybee.lt/rent/kia/sportage/2244": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "https://admitaflex.lt/automobiliai/mg-zs-automobiliu-nuoma/": {
+      "brand": "MG",
+      "model": "ZS HYBRID+"
+    },
+    "https://admitaflex.lt/automobiliai/audi-a5-nuoma/": {
+      "brand": "AUDI",
+      "model": "A5"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-t-cross-nuoma/": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-cross"
+    },
+    "https://admitaflex.lt/automobiliai/skoda-karoq-nuoma/": {
+      "brand": "Škoda",
+      "model": "Karoq"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-t-roc-nuoma-verslui/": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "https://admitaflex.lt/automobiliai/skoda-scala-automobilio-nuoma/": {
+      "brand": "Škoda",
+      "model": "Scala"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-tayron/": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tayron"
+    },
+    "https://admitaflex.lt/automobiliai/skoda-fabia-nuoma/": {
+      "brand": "Škoda",
+      "model": "Fabia"
+    },
+    "https://admitaflex.lt/automobiliai/cupra-terramar-nuoma/": {
+      "brand": "CUPRA",
+      "model": "Terramar"
+    },
+    "https://admitaflex.lt/automobiliai/toyota-camry-hybrid-nuoma/": {
+      "brand": "TOYOTA",
+      "model": "Camry Hybrid"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-passat-ilgalaike-nuoma/": {
+      "brand": "VOLKSWAGEN",
+      "model": "Passat"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-golf-variant-nuoma/": {
+      "brand": "VOLKSWAGEN",
+      "model": "Golf Variant"
+    },
+    "https://admitaflex.lt/automobiliai/skoda-oktavia-selection/": {
+      "brand": "Škoda",
+      "model": "Oktavia Selection"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-tiguan-nuoma/": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan"
+    },
+    "https://admitaflex.lt/automobiliai/toyota-yaris-cross-nuoma/": {
+      "brand": "TOYOTA",
+      "model": "Yaris Cross"
+    },
+    "https://admitaflex.lt/automobiliai/toyota-corolla-automobilio-nuoma/": {
+      "brand": "TOYOTA",
+      "model": "Corolla"
+    },
+    "https://admitaflex.lt/automobiliai/nissan-qashqai-auto-nuoma/": {
+      "brand": "NISSAN",
+      "model": "Qashqai"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-golf-auto-nuoma/": {
+      "brand": "VOLKSWAGEN",
+      "model": "Golf"
+    },
+    "https://admitaflex.lt/automobiliai/volkswagen-taigo-autonuoma/": {
+      "brand": "VOLKSWAGEN",
+      "model": "Taigo"
+    },
+    "https://admitaflex.lt/automobiliai/ilgalaike-skoda-kodiaq-nuoma/": {
+      "brand": "Škoda",
+      "model": "Kodiaq"
+    },
+    "https://admitaflex.lt/automobiliai/skoda-superb-automobilio-nuoma/": {
+      "brand": "Škoda",
+      "model": "Superb"
+    },
+    "https://admitaflex.lt/automobiliai/toyota-yaris-automobilio-nuoma/": {
+      "brand": "TOYOTA",
+      "model": "Yaris"
+    },
+    "https://admitaflex.lt/automobiliai/skoda-octavia/": {
+      "brand": "Škoda",
+      "model": "Octavia"
+    },
+    "https://admitaflex.lt/automobiliai/skoda-kamiq-nuoma/": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "https://www.sixtplus.lt/lt-cars/seat-arona": {
+      "brand": "SEAT",
+      "model": "Arona"
+    },
+    "https://www.sixtplus.lt/lt-cars/toyota-yaris-cross-hybrid": {
+      "brand": "TOYOTA",
+      "model": "Yaris Cross Hybrid"
+    },
+    "https://www.sixtplus.lt/lt-cars/nissan-leaf": {
+      "brand": "NISSAN",
+      "model": "Leaf"
+    },
+    "https://www.sixtplus.lt/lt-cars/skoda-kodiaq-4x4": {
+      "brand": "Škoda",
+      "model": "Kodiaq 4x4"
+    },
+    "https://www.sixtplus.lt/lt-cars/hyundai-i30": {
+      "brand": "HYUNDAI",
+      "model": "I30"
+    },
+    "https://www.sixtplus.lt/lt-cars/volvo-v60": {
+      "brand": "VOLVO",
+      "model": "V60"
+    },
+    "https://www.sixtplus.lt/lt-cars/dacia-duster": {
+      "brand": "DACIA",
+      "model": "Duster"
+    },
+    "https://www.sixtplus.lt/lt-cars/skoda-octavia": {
+      "brand": "Škoda",
+      "model": "Octavia"
+    },
+    "https://www.sixtplus.lt/lt-cars/skoda-kamiq": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "https://www.sixtplus.lt/lt-cars/skoda-scala": {
+      "brand": "Škoda",
+      "model": "Scala"
+    },
+    "https://www.sixtplus.lt/lt-cars/kia-sportage-awd": {
+      "brand": "KIA",
+      "model": "Sportage Awd"
+    },
+    "https://www.sixtplus.lt/lt-cars/cupra-leon-sportstourer": {
+      "brand": "CUPRA",
+      "model": "Leon Sportstourer"
+    },
+    "https://www.sixtplus.lt/lt-cars/cupra-formentor-4x4": {
+      "brand": "CUPRA",
+      "model": "Formentor 4x4"
+    },
+    "https://www.sixtplus.lt/lt-cars/skoda-superb": {
+      "brand": "Škoda",
+      "model": "Superb"
+    },
+    "https://www.sixtplus.lt/lt-cars/skoda-superb-sw": {
+      "brand": "Škoda",
+      "model": "Superb Sw"
+    },
+    "https://www.sixtplus.lt/lt-cars/bmw-1-series-m-pack": {
+      "brand": "BMW",
+      "model": "1 Series M Pack"
+    },
+    "https://www.sixtplus.lt/lt-cars/volkswagen-tiguan-new": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan New"
+    },
+    "https://www.sixtplus.lt/lt-cars/mercedes-eqs": {
+      "brand": "Mercedes-Benz",
+      "model": "Eqs"
+    },
+    "https://www.sixtplus.lt/lt-cars/volvo-s60": {
+      "brand": "VOLVO",
+      "model": "S60"
+    },
+    "https://www.sixtplus.lt/lt-cars/rivian-r1s": {
+      "brand": "RIVIAN",
+      "model": "R1s"
+    },
+    "https://www.sixtplus.lt/lt-cars/nissan-x-trail": {
+      "brand": "NISSAN",
+      "model": "X Trail"
+    },
+    "https://www.sixtplus.lt/lt-cars/rivian-r1t": {
+      "brand": "RIVIAN",
+      "model": "R1t"
+    },
+    "https://www.sixtplus.lt/lt-cars/seat-leon-sportstourer": {
+      "brand": "SEAT",
+      "model": "Leon Sportstourer"
+    },
+    "https://www.sixtplus.lt/lt-cars/toyota-corolla": {
+      "brand": "TOYOTA",
+      "model": "Corolla"
+    },
+    "https://www.sixtplus.lt/lt-cars/skoda-octavia-sw": {
+      "brand": "Škoda",
+      "model": "Octavia Sw"
+    },
+    "https://myavis.lt/product/avis-flex/t-cross-3/": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-CROSS"
+    },
+    "https://myavis.lt/product/avis-flex/t-roc/": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-ROC"
+    },
+    "https://myavis.lt/product/avis-flex/land-cruiser/": {
+      "brand": "TOYOTA",
+      "model": "Land Cruiser"
+    },
+    "https://myavis.lt/product/avis-flex/terramar/": {
+      "brand": "CUPRA",
+      "model": "TERRAMAR"
+    },
+    "https://myavis.lt/product/avis-flex/tiguan-2/": {
+      "brand": "VOLKSWAGEN",
+      "model": "TIGUAN"
+    },
+    "https://myavis.lt/product/avis-flex/rav-4-hybrid-4x4/": {
+      "brand": "TOYOTA",
+      "model": "RAV-4 HYBRID 4X4"
+    },
+    "https://myavis.lt/product/avis-flex/q5-2/": {
+      "brand": "AUDI",
+      "model": "Q5"
+    },
+    "https://myavis.lt/product/avis-flex/multivan/": {
+      "brand": "VOLKSWAGEN",
+      "model": "MULTIVAN"
+    },
+    "https://myavis.lt/product/avis-flex/golf-etsi-dsg-4/": {
+      "brand": "VOLKSWAGEN",
+      "model": "GOLF"
+    },
+    "https://myavis.lt/product/avis-flex/c-hr-hybrid/": {
+      "brand": "TOYOTA",
+      "model": "C-HR HYBRID"
+    },
+    "https://myavis.lt/product/avis-flex/a5/": {
+      "brand": "AUDI",
+      "model": "A5"
+    },
+    "https://myavis.lt/product/avis-flex/a5-2/": {
+      "brand": "AUDI",
+      "model": "A5"
+    },
+    "https://myavis.lt/product/avis-flex/id4-2/": {
+      "brand": "VOLKSWAGEN",
+      "model": "ID4"
+    },
+    "https://myavis.lt/product/avis-flex/master-h3/": {
+      "brand": "RENAULT",
+      "model": "MASTER H3"
+    },
+    "https://myavis.lt/product/avis-flex/a6-tdi-dsg/": {
+      "brand": "AUDI",
+      "model": "A6"
+    },
+    "https://myavis.lt/product/avis-flex/hilux/": {
+      "brand": "TOYOTA",
+      "model": "Hilux"
+    },
+    "https://myavis.lt/product/avis-flex/a6-plug-in-hybrid/": {
+      "brand": "AUDI",
+      "model": "A6 Plug-in Hybrid"
+    },
+    "https://myavis.lt/product/avis-flex/amarok/": {
+      "brand": "VOLKSWAGEN",
+      "model": "Amarok"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/audi-q5-sportback-2-0tdi-160ag-58": {
+      "brand": "AUDI",
+      "model": "Q5 Sportback"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/vw-tayron-life-1-5tsi-150ag-dsg-57": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tayron LIFE"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/audi-a6-c8-2-0tdi-200ag-56": {
+      "brand": "AUDI",
+      "model": "A6 C8"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/seat-arona-style-plus-1-0tsi-110ag-dsg-55": {
+      "brand": "SEAT",
+      "model": "Arona Style Plus"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/toyota-corolla-hybrid-1-8-140ag-active-plus-43": {
+      "brand": "TOYOTA",
+      "model": "Corolla Hybrid 1.8"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/toyota-yaris-hybrid-1-5-116ag-active-plus-42": {
+      "brand": "TOYOTA",
+      "model": "Yaris Hybrid 1.5"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/toyota-yaris-cross-1-5-hybrid-116-ag-e-cvt-active-plus--38": {
+      "brand": "TOYOTA",
+      "model": "Yaris Cross"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/skoda-kamiq-1-0-tsi-110ag-dsg-36": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/vw-t-cross-life-30y-1-0tsi-110ag-dsg-35": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-CROSS LIFE 30Y"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/skoda-octavia-ambition-2-0-tdi-116ag-dsg-23": {
+      "brand": "Škoda",
+      "model": "Octavia AMBITION"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/kia-ceed-sw-1-5-t-gdi-lx-plus-7dct-32": {
+      "brand": "KIA",
+      "model": "Ceed SW"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/seat-leon-style-sportstourer-2-0-tdi-150ag-dsg-7-22": {
+      "brand": "SEAT",
+      "model": "Leon Style Sportstourer"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/skoda-octavia-combi-ambition-2-0-tdi-150ag-dsg-30": {
+      "brand": "Škoda",
+      "model": "Octavia Combi AMBITION"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/vw-tiguan-life-30y-1-5tsi-150ag-dsg-31": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan LIFE 30Y"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/kia-sportage-1-6-t-gdi-mhev-lx-plus-7dct-2wd-33": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/skoda-karoq-ambition-2-0-tdi-116ag-dsg-18": {
+      "brand": "Škoda",
+      "model": "Karoq AMBITION"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/nissan-qashqai-mhev-158-xtronic-2wd-tekna-9": {
+      "brand": "NISSAN",
+      "model": "Qashqai MHEV"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/skoda-karoq-ambition-2-0-tdi-150ag-dsg-4x4-17": {
+      "brand": "Škoda",
+      "model": "Karoq AMBITION"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/citroen-spacetourer-bluehdi-180ag-at8-long-44": {
+      "brand": "CITROEN",
+      "model": "Spacetourer BlueHDi"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/ford-transit-l3h2-2-0-ecoblue-130ag-mt-21": {
+      "brand": "FORD",
+      "model": "Transit L3H2"
+    },
+    "https://www.gbyrent.lt/ilgalaike-automobiliu-nuoma/renault-master-2-3l-l3h2-13": {
+      "brand": "RENAULT",
+      "model": "Master 2.3L L3H2"
+    }
+  },
+  "byId": {
+    "mybee-tesla-model-3-1": {
+      "brand": "TESLA",
+      "model": "Model 3"
+    },
+    "mybee-volkswagen-id3-2": {
+      "brand": "VOLKSWAGEN",
+      "model": "ID.3"
+    },
+    "mybee-cupra-born-3": {
+      "brand": "CUPRA",
+      "model": "Born"
+    },
+    "mybee-jeep-avenger-4": {
+      "brand": "JEEP",
+      "model": "Avenger"
+    },
+    "mybee-toyota-corollacross-5": {
+      "brand": "TOYOTA",
+      "model": "Corollacross"
+    },
+    "mybee-nissan-qashqai-6": {
+      "brand": "NISSAN",
+      "model": "Qashqai"
+    },
+    "mybee-volkswagen-golfvariant-7": {
+      "brand": "VOLKSWAGEN",
+      "model": "Golfvariant"
+    },
+    "mybee-volkswagen-t-roc-8": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "mybee-volkswagen-tiguan-9": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan"
+    },
+    "mybee-ford-puma-10": {
+      "brand": "FORD",
+      "model": "Puma"
+    },
+    "mybee-cupra-formentor-11": {
+      "brand": "CUPRA",
+      "model": "Formentor"
+    },
+    "mybee-kia-sportage-12": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "mybee-volkswagen-t-cross-13": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Cross"
+    },
+    "mybee-renault-master-14": {
+      "brand": "RENAULT",
+      "model": "Master"
+    },
+    "mybee-mg-zs-15": {
+      "brand": "MG",
+      "model": "Zs"
+    },
+    "mybee-skoda-octavia-16": {
+      "brand": "Škoda",
+      "model": "Octavia"
+    },
+    "mybee-skoda-kodiaq-17": {
+      "brand": "Škoda",
+      "model": "Kodiaq"
+    },
+    "mybee-mercedes-benz-citan-18": {
+      "brand": "Mercedes-Benz",
+      "model": "Citan"
+    },
+    "mybee-skoda-kamiq-19": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "mybee-cupra-formentor-12": {
+      "brand": "CUPRA",
+      "model": "Formentor"
+    },
+    "mybee-kia-sportage-14": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "mybee-kia-sportage-15": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "mybee-cupra-formentor-16": {
+      "brand": "CUPRA",
+      "model": "Formentor"
+    },
+    "mybee-volkswagen-t-cross-18": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Cross"
+    },
+    "mybee-volkswagen-t-roc-21": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "mybee-volkswagen-t-roc-22": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "mybee-mg-zs-23": {
+      "brand": "MG",
+      "model": "Zs"
+    },
+    "mybee-volkswagen-t-cross-24": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Cross"
+    },
+    "mybee-kia-sportage-25": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "mybee-kia-sportage-26": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "admitaflex-mg-zs-hybrid-1": {
+      "brand": "MG",
+      "model": "ZS HYBRID+"
+    },
+    "admitaflex-audi-a5-2": {
+      "brand": "AUDI",
+      "model": "A5"
+    },
+    "admitaflex-perziureti-perziureti-3": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-cross"
+    },
+    "admitaflex-perziureti-perziureti-4": {
+      "brand": "Škoda",
+      "model": "Karoq"
+    },
+    "admitaflex-perziureti-perziureti-5": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-Roc"
+    },
+    "admitaflex-perziureti-perziureti-6": {
+      "brand": "Škoda",
+      "model": "Scala"
+    },
+    "admitaflex-perziureti-perziureti-7": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tayron"
+    },
+    "admitaflex-perziureti-perziureti-8": {
+      "brand": "Škoda",
+      "model": "Fabia"
+    },
+    "admitaflex-perziureti-perziureti-9": {
+      "brand": "CUPRA",
+      "model": "Terramar"
+    },
+    "admitaflex-perziureti-perziureti-10": {
+      "brand": "TOYOTA",
+      "model": "Camry Hybrid"
+    },
+    "admitaflex-perziureti-perziureti-11": {
+      "brand": "VOLKSWAGEN",
+      "model": "Passat"
+    },
+    "admitaflex-perziureti-perziureti-12": {
+      "brand": "VOLKSWAGEN",
+      "model": "Golf Variant"
+    },
+    "admitaflex-perziureti-perziureti-13": {
+      "brand": "Škoda",
+      "model": "Oktavia Selection"
+    },
+    "admitaflex-perziureti-perziureti-14": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan"
+    },
+    "admitaflex-perziureti-perziureti-15": {
+      "brand": "TOYOTA",
+      "model": "Yaris Cross"
+    },
+    "admitaflex-perziureti-perziureti-16": {
+      "brand": "TOYOTA",
+      "model": "Corolla"
+    },
+    "admitaflex-perziureti-perziureti-17": {
+      "brand": "NISSAN",
+      "model": "Qashqai"
+    },
+    "admitaflex-perziureti-perziureti-18": {
+      "brand": "VOLKSWAGEN",
+      "model": "Golf"
+    },
+    "admitaflex-perziureti-perziureti-19": {
+      "brand": "VOLKSWAGEN",
+      "model": "Taigo"
+    },
+    "admitaflex-perziureti-perziureti-20": {
+      "brand": "Škoda",
+      "model": "Kodiaq"
+    },
+    "admitaflex-perziureti-perziureti-21": {
+      "brand": "Škoda",
+      "model": "Superb"
+    },
+    "admitaflex-perziureti-perziureti-22": {
+      "brand": "TOYOTA",
+      "model": "Yaris"
+    },
+    "admitaflex-perziureti-perziureti-23": {
+      "brand": "Škoda",
+      "model": "Octavia"
+    },
+    "admitaflex-perziureti-perziureti-24": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "sixt-seat-arona-1": {
+      "brand": "SEAT",
+      "model": "Arona"
+    },
+    "sixt-toyota-yaris-cross-hybrid-3": {
+      "brand": "TOYOTA",
+      "model": "Yaris Cross Hybrid"
+    },
+    "sixt-nissan-leaf-5": {
+      "brand": "NISSAN",
+      "model": "Leaf"
+    },
+    "sixt-skoda-kodiaq-4x4-7": {
+      "brand": "Škoda",
+      "model": "Kodiaq 4x4"
+    },
+    "sixt-hyundai-i30-9": {
+      "brand": "HYUNDAI",
+      "model": "I30"
+    },
+    "sixt-volvo-v60-11": {
+      "brand": "VOLVO",
+      "model": "V60"
+    },
+    "sixt-dacia-duster-13": {
+      "brand": "DACIA",
+      "model": "Duster"
+    },
+    "sixt-skoda-octavia-15": {
+      "brand": "Škoda",
+      "model": "Octavia"
+    },
+    "sixt-skoda-kamiq-17": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "sixt-skoda-scala-19": {
+      "brand": "Škoda",
+      "model": "Scala"
+    },
+    "sixt-kia-sportage-awd-21": {
+      "brand": "KIA",
+      "model": "Sportage Awd"
+    },
+    "sixt-cupra-leon-sportstourer-23": {
+      "brand": "CUPRA",
+      "model": "Leon Sportstourer"
+    },
+    "sixt-cupra-formentor-4x4-25": {
+      "brand": "CUPRA",
+      "model": "Formentor 4x4"
+    },
+    "sixt-skoda-superb-27": {
+      "brand": "Škoda",
+      "model": "Superb"
+    },
+    "sixt-skoda-superb-sw-29": {
+      "brand": "Škoda",
+      "model": "Superb Sw"
+    },
+    "sixt-bmw-1-series-m-pack-31": {
+      "brand": "BMW",
+      "model": "1 Series M Pack"
+    },
+    "sixt-volkswagen-tiguan-new-33": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan New"
+    },
+    "sixt-mercedes-eqs-35": {
+      "brand": "Mercedes-Benz",
+      "model": "Eqs"
+    },
+    "sixt-volvo-s60-37": {
+      "brand": "VOLVO",
+      "model": "S60"
+    },
+    "sixt-rivian-r1s-39": {
+      "brand": "RIVIAN",
+      "model": "R1s"
+    },
+    "sixt-nissan-x-trail-41": {
+      "brand": "NISSAN",
+      "model": "X Trail"
+    },
+    "sixt-rivian-r1t-45": {
+      "brand": "RIVIAN",
+      "model": "R1t"
+    },
+    "sixt-seat-leon-sportstourer-7": {
+      "brand": "SEAT",
+      "model": "Leon Sportstourer"
+    },
+    "sixt-toyota-corolla-9": {
+      "brand": "TOYOTA",
+      "model": "Corolla"
+    },
+    "sixt-skoda-octavia-sw-10": {
+      "brand": "Škoda",
+      "model": "Octavia Sw"
+    },
+    "avis-flex-volkswagen-t-cross-1": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-CROSS"
+    },
+    "avis-flex-volkswagen-t-roc-2": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-ROC"
+    },
+    "avis-flex-toyota-land-cruiser-3": {
+      "brand": "TOYOTA",
+      "model": "Land Cruiser"
+    },
+    "avis-flex-cupra-terramar-4": {
+      "brand": "CUPRA",
+      "model": "TERRAMAR"
+    },
+    "avis-flex-volkswagen-tiguan-5": {
+      "brand": "VOLKSWAGEN",
+      "model": "TIGUAN"
+    },
+    "avis-flex-toyota-rav-4-hybrid-4x4-6": {
+      "brand": "TOYOTA",
+      "model": "RAV-4 HYBRID 4X4"
+    },
+    "avis-flex-audi-q5-7": {
+      "brand": "AUDI",
+      "model": "Q5"
+    },
+    "avis-flex-volkswagen-multivan-8": {
+      "brand": "VOLKSWAGEN",
+      "model": "MULTIVAN"
+    },
+    "avis-flex-volkswagen-golf-9": {
+      "brand": "VOLKSWAGEN",
+      "model": "GOLF"
+    },
+    "avis-flex-toyota-c-hr-hybrid-10": {
+      "brand": "TOYOTA",
+      "model": "C-HR HYBRID"
+    },
+    "avis-flex-audi-a5-11": {
+      "brand": "AUDI",
+      "model": "A5"
+    },
+    "avis-flex-audi-a5-12": {
+      "brand": "AUDI",
+      "model": "A5"
+    },
+    "avis-flex-volkswagen-id4-13": {
+      "brand": "VOLKSWAGEN",
+      "model": "ID4"
+    },
+    "avis-flex-renault-master-h3-14": {
+      "brand": "RENAULT",
+      "model": "MASTER H3"
+    },
+    "avis-flex-audi-a6-15": {
+      "brand": "AUDI",
+      "model": "A6"
+    },
+    "avis-flex-toyota-hilux-16": {
+      "brand": "TOYOTA",
+      "model": "Hilux"
+    },
+    "avis-flex-audi-a6-plug-in-hybrid-17": {
+      "brand": "AUDI",
+      "model": "A6 Plug-in Hybrid"
+    },
+    "avis-flex-volkswagen-amarok-18": {
+      "brand": "VOLKSWAGEN",
+      "model": "Amarok"
+    },
+    "gby-audi-q5-sportback-1": {
+      "brand": "AUDI",
+      "model": "Q5 Sportback"
+    },
+    "gby-volkswagen-tayron-life-2": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tayron LIFE"
+    },
+    "gby-audi-a6-c8-3": {
+      "brand": "AUDI",
+      "model": "A6 C8"
+    },
+    "gby-seat-arona-style-plus-4": {
+      "brand": "SEAT",
+      "model": "Arona Style Plus"
+    },
+    "gby-toyota-corolla-hybrid-18-5": {
+      "brand": "TOYOTA",
+      "model": "Corolla Hybrid 1.8"
+    },
+    "gby-toyota-yaris-hybrid-15-6": {
+      "brand": "TOYOTA",
+      "model": "Yaris Hybrid 1.5"
+    },
+    "gby-toyota-yaris-cross-7": {
+      "brand": "TOYOTA",
+      "model": "Yaris Cross"
+    },
+    "gby-skoda-kamiq-8": {
+      "brand": "Škoda",
+      "model": "Kamiq"
+    },
+    "gby-volkswagen-t-cross-life-30y-9": {
+      "brand": "VOLKSWAGEN",
+      "model": "T-CROSS LIFE 30Y"
+    },
+    "gby-skoda-octavia-ambition-10": {
+      "brand": "Škoda",
+      "model": "Octavia AMBITION"
+    },
+    "gby-kia-ceed-sw-11": {
+      "brand": "KIA",
+      "model": "Ceed SW"
+    },
+    "gby-seat-leon-style-sportstourer-12": {
+      "brand": "SEAT",
+      "model": "Leon Style Sportstourer"
+    },
+    "gby-skoda-octavia-combi-ambition-13": {
+      "brand": "Škoda",
+      "model": "Octavia Combi AMBITION"
+    },
+    "gby-volkswagen-tiguan-life-30y-14": {
+      "brand": "VOLKSWAGEN",
+      "model": "Tiguan LIFE 30Y"
+    },
+    "gby-kia-sportage-15": {
+      "brand": "KIA",
+      "model": "Sportage"
+    },
+    "gby-skoda-karoq-ambition-16": {
+      "brand": "Škoda",
+      "model": "Karoq AMBITION"
+    },
+    "gby-nissan-qashqai-mhev-17": {
+      "brand": "NISSAN",
+      "model": "Qashqai MHEV"
+    },
+    "gby-skoda-karoq-ambition-18": {
+      "brand": "Škoda",
+      "model": "Karoq AMBITION"
+    },
+    "gby-citroen-spacetourer-bluehdi-19": {
+      "brand": "CITROEN",
+      "model": "Spacetourer BlueHDi"
+    },
+    "gby-ford-transit-l3h2-20": {
+      "brand": "FORD",
+      "model": "Transit L3H2"
+    },
+    "gby-renault-master-23l-l3h2-21": {
+      "brand": "RENAULT",
+      "model": "Master 2.3L L3H2"
+    }
+  }
+}
