@@ -1,0 +1,38 @@
+{
+  "name": "rentalize",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "node -e \"try { require('fs').rmSync('.next', { recursive: true, force: true }); console.log('OK: .next removed'); } catch (e) { console.error(e); process.exit(1); }\"",
+    "dev": "next dev",
+    "dev:clean": "npm run clean && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "scrape-mybee": "node scripts/scrape-mybee.js",
+    "dedupe-cars": "node scripts/dedupe-cars-json.js",
+    "update-inventory": "node scripts/update-inventory.js",
+    "update-inventory-admitaflex": "node scripts/update-inventory-admitaflex.js",
+    "update-inventory-sixt": "node scripts/update-inventory-sixt.js",
+    "update-inventory-sixt-configurator": "node scripts/update-inventory-sixt-configurator.js",
+    "update-inventory-myavis": "node scripts/update-inventory-myavis.js",
+    "update-inventory-gby": "node scripts/update-inventory-gby.js",
+    "normalize-brands": "node scripts/normalize-brands.js",
+    "build-curation": "node scripts/build-curation.js"
+  },
+  "dependencies": {
+    "next": "14.2.18",
+    "playwright": "^1.58.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5"
+  }
+}
