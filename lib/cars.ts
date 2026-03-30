@@ -8,12 +8,24 @@ export { PROVIDER_LABELS } from "./constants";
 let cached: Car[] | null = null;
 let cachedMtimeMs = 0;
 
+function isExcludedCar(brandRaw: string, modelRaw: string): boolean {
+  const brand = (brandRaw || "").trim().toUpperCase();
+  const model = (modelRaw || "").trim().toUpperCase();
+  if (!brand || !model) return false;
+  if (brand === "RIVIAN") return true;
+  if (brand === "MERCEDES-BENZ" || brand === "MERCEDES BENZ" || brand === "MERCEDES") {
+    return model.includes("EQS");
+  }
+  return false;
+}
+
 export function getCars(): Car[] {
   const filePath = path.join(process.cwd(), "cars.json");
   const mtimeMs = statSync(filePath).mtimeMs;
   if (cached && cachedMtimeMs === mtimeMs) return cached;
   const data = readFileSync(filePath, "utf-8");
-  cached = JSON.parse(data) as Car[];
+  const raw = JSON.parse(data) as Car[];
+  cached = raw.filter((c) => !isExcludedCar(c.brand, c.model));
   cachedMtimeMs = mtimeMs;
   return cached;
 }
