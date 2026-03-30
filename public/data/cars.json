@@ -706,22 +706,6 @@
     "available": true
   },
   {
-    "id": "sixt-mercedes-eqs-35",
-    "provider": "SIXT+",
-    "brand": "Mercedes-Benz",
-    "model": "Eqs",
-    "monthly_price": 2169,
-    "transmission": "Automatinė",
-    "fuel": "Elektra",
-    "type": "SUV / Krosoveris",
-    "commitment_months": 12,
-    "initial_payment": 0,
-    "one_time_fee": 0,
-    "img_url": "",
-    "offer_url": "https://www.sixtplus.lt/lt-cars/mercedes-eqs",
-    "available": true
-  },
-  {
     "id": "sixt-volvo-s60-37",
     "provider": "SIXT+",
     "brand": "VOLVO",
@@ -735,22 +719,6 @@
     "one_time_fee": 690,
     "img_url": "",
     "offer_url": "https://www.sixtplus.lt/lt-cars/volvo-s60",
-    "available": true
-  },
-  {
-    "id": "sixt-rivian-r1s-39",
-    "provider": "SIXT+",
-    "brand": "RIVIAN",
-    "model": "R1s",
-    "monthly_price": 2089,
-    "transmission": "Automatinė",
-    "fuel": "Elektra",
-    "type": "SUV / Krosoveris",
-    "commitment_months": 12,
-    "initial_payment": 0,
-    "one_time_fee": 0,
-    "img_url": "",
-    "offer_url": "https://www.sixtplus.lt/lt-cars/rivian-r1s",
     "available": true
   },
   {
@@ -769,22 +737,6 @@
     "listing_img_url": "https://cdn.prod.website-files.com/63314e6a1b44fccd02030a28/69768edebafe005afceb000c_5624_c6cff85953502fab66ff36346bb5fa6c73f15e63febf8e69d6336f336a6b0773_original.jpeg",
     "offer_url": "https://www.sixtplus.lt/lt-cars/nissan-x-trail",
     "available": false
-  },
-  {
-    "id": "sixt-rivian-r1t-45",
-    "provider": "SIXT+",
-    "brand": "RIVIAN",
-    "model": "R1t",
-    "monthly_price": 2289,
-    "transmission": "Automatinė",
-    "fuel": "Elektra",
-    "type": "SUV / Krosoveris",
-    "commitment_months": 12,
-    "initial_payment": 290,
-    "one_time_fee": 290,
-    "img_url": "",
-    "offer_url": "https://www.sixtplus.lt/lt-cars/rivian-r1t",
-    "available": true
   },
   {
     "id": "sixt-seat-leon-sportstourer-7",
