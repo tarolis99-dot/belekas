@@ -139,13 +139,20 @@ export default async function AutomobilioDetailPage({
         <div className="mt-4 grid gap-10 lg:grid-cols-[1fr_400px] lg:gap-16">
           {/* Left column: title + image + specs (vienas „stulpelis“ — lygiuojasi su nuotrauka) */}
           <div className="min-w-0 space-y-10">
-            <div>
-              <p className="text-sm font-medium uppercase tracking-wide text-gray-500">
-                {car.brand}
-              </p>
-              <h1 className="mt-1 text-3xl font-bold tracking-tight text-gray-900">
-                {displayModel}
-              </h1>
+            <div className="flex items-start justify-between gap-4">
+              <div className="pt-1">
+                <Link
+                  href="/katalogas"
+                  className="inline-flex items-center gap-2 rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2"
+                >
+                  <span aria-hidden>←</span>
+                  Grįžti į katalogą
+                </Link>
+              </div>
+              <div className="text-right">
+                <p className="text-sm font-medium uppercase tracking-wide text-gray-500">{car.brand}</p>
+                <h1 className="mt-1 text-3xl font-bold tracking-tight text-gray-900">{displayModel}</h1>
+              </div>
             </div>
 
             {/* Hero: pilkas fonas šonuose (object-contain „letterbox“), be baltos ant img */}
