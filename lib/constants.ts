@@ -44,3 +44,6 @@ export const PROVIDER_LABELS: Record<string, string> = {
   GBY: "GBY",
   "AVIS FLEX": "Avis Flex",
 };
+
+// Feature flags (laikinai paslėpti, bet ne ištrinti)
+export const SHOW_CONTACT_UI = false;
