@@ -7,6 +7,7 @@ import {
   PROVIDER_LABELS,
   type Car,
 } from "@/lib/cars";
+import { SHOW_CONTACT_UI } from "@/lib/constants";
 import { getListingImages, resolveListingImageSrc } from "@/lib/listing-images";
 import SiteHeader from "../../components/SiteHeader";
 
@@ -156,7 +157,7 @@ export default async function AutomobilioDetailPage({
             </div>
 
             {/* Hero: pilkas fonas šonuose (object-contain „letterbox“), be baltos ant img */}
-            <div className="relative w-full overflow-hidden rounded-xl border border-gray-200 bg-[#f7f7f7]">
+            <div className="relative w-full overflow-hidden rounded-none border border-gray-200 bg-[#f7f7f7]">
               <div className="relative aspect-[16/10] w-full">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -298,7 +299,7 @@ export default async function AutomobilioDetailPage({
                       </a>
                     </li>
                   ))}
-                  <LeasingInquiryCard />
+                  {SHOW_CONTACT_UI ? <LeasingInquiryCard /> : null}
                 </ul>
               </div>
             </div>
@@ -480,7 +481,7 @@ export default async function AutomobilioDetailPage({
                     </a>
                   </li>
                 ))}
-                <LeasingInquiryCard />
+                {SHOW_CONTACT_UI ? <LeasingInquiryCard /> : null}
               </ul>
             </div>
           </aside>
