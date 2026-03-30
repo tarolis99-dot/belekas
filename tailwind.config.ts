@@ -22,6 +22,12 @@ const config: Config = {
     "bg-[#39ff14]/10",
     "border-[#39ff14]",
     "accent-[#39ff14]",
+    // Mobile menu overlay: užtikrinam, kad backdrop efektai būtų ir produkciniuose build'uose
+    "bg-[#0a0a0a]/80",
+    "bg-[#fcfcfc]/95",
+    "backdrop-blur-md",
+    "backdrop-blur-sm",
+    "backdrop-saturate-150",
   ],
   theme: {
     extend: {
