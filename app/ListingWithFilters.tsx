@@ -645,6 +645,16 @@ export default function ListingWithFilters({ cars, listingImages }: { cars: Car[
                 ))}
               </div>
             </FilterAccordionSection>
+            {/* Mobile: aiškus "apply/show" veiksmas uždaro filtrų langą */}
+            <div className="sticky bottom-0 mt-4 border-t border-gray-100 bg-[#fcfcfc] pt-4 lg:hidden">
+              <button
+                type="button"
+                className="inline-flex w-full items-center justify-center rounded-lg bg-[#39ff14] px-6 py-3 text-sm font-semibold text-black shadow-sm transition hover:bg-[#32c616] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#39ff14] focus-visible:ring-offset-2 active:scale-[0.99]"
+                onClick={() => setSidebarOpen(false)}
+              >
+                Rodyti
+              </button>
+            </div>
             </div>
           </aside>
 

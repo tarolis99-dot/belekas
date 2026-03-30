@@ -89,9 +89,9 @@ export default function HomePage() {
       <main>
         {/* Hero */}
         <section className="border-b border-gray-100 bg-[#fcfcfc]">
-          <div className="mx-auto grid max-w-7xl gap-12 px-4 pb-10 pt-10 sm:px-6 sm:pb-14 sm:pt-12 lg:grid-cols-2 lg:items-stretch lg:gap-16 lg:px-8 lg:pb-16 lg:pt-16">
+          <div className="mx-auto grid max-w-7xl gap-12 px-4 pb-10 pt-7 sm:px-6 sm:pb-14 sm:pt-12 lg:grid-cols-2 lg:items-stretch lg:gap-16 lg:px-8 lg:pb-16 lg:pt-16">
             <div className="flex max-w-xl flex-col justify-center">
-              <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
+              <h1 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:mt-4 sm:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
                 Palyginkite ilgalaikės nuomos kainas vienoje vietoje
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-gray-600">
