@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getCars } from "@/lib/cars";
 import { getFeaturedModels } from "@/lib/featured-models";
 import { getListingImages } from "@/lib/listing-images";
+import { SHOW_CONTACT_UI } from "@/lib/constants";
 import ContactLeadForm from "./components/ContactLeadForm";
 import SiteHeader from "./components/SiteHeader";
 import LandingBrandGrid from "./components/LandingBrandGrid";
@@ -282,22 +283,24 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Contact */}
-        <section id="kontaktai" className="border-t border-gray-100 bg-[#fcfcfc]">
-          <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
-            <div className="mx-auto max-w-xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Neradote tinkamo varianto?
-              </h2>
-              <p className="mt-4 text-lg text-gray-600">
-                Aprašykite poreikius: modelį, ridą, terminą. Individualus pasiūlymas pasieks Jus artimiausiu metu.
-              </p>
+        {/* Contact (laikinai paslėpta) */}
+        {SHOW_CONTACT_UI ? (
+          <section id="kontaktai" className="border-t border-gray-100 bg-[#fcfcfc]">
+            <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+              <div className="mx-auto max-w-xl text-center">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  Neradote tinkamo varianto?
+                </h2>
+                <p className="mt-4 text-lg text-gray-600">
+                  Aprašykite poreikius: modelį, ridą, terminą. Individualus pasiūlymas pasieks Jus artimiausiu metu.
+                </p>
+              </div>
+              <div className="mt-12">
+                <ContactLeadForm />
+              </div>
             </div>
-            <div className="mt-12">
-              <ContactLeadForm />
-            </div>
-          </div>
-        </section>
+          </section>
+        ) : null}
       </main>
 
       <footer className="border-t border-gray-100 bg-[#fafafa] py-10">
