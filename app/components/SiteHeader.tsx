@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
+import { SHOW_CONTACT_UI } from "@/lib/constants";
 
 export type SiteHeaderProps = {
   /** Aktyvus meniu punktas (pvz. katalogo puslapyje). */
@@ -94,12 +95,14 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps) {
           >
             Apie
           </Link>
-          <Link
-            href="/#kontaktai"
-            className="shrink-0 text-sm font-medium text-gray-500 hover:text-gray-800"
-          >
-            Susisiekime
-          </Link>
+          {SHOW_CONTACT_UI ? (
+            <Link
+              href="/#kontaktai"
+              className="shrink-0 text-sm font-medium text-gray-500 hover:text-gray-800"
+            >
+              Susisiekime
+            </Link>
+          ) : null}
         </div>
 
         <button
@@ -119,6 +122,12 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps) {
             <div
               id="mobile-nav-overlay"
               className="fixed inset-0 z-[200] flex min-h-dvh flex-col bg-[#0a0a0a]/80 backdrop-blur-md backdrop-saturate-150"
+              style={{
+                // Production'e kai kuriuose build'uose Tailwind backdrop klasės kartais "neišlenda" dėl purging/caching.
+                // Inline stilius užtikrina blur visur (Chrome/Safari, Vercel).
+                backdropFilter: "blur(12px) saturate(1.5)",
+                WebkitBackdropFilter: "blur(12px) saturate(1.5)",
+              }}
               role="dialog"
               aria-modal="true"
               aria-label="Navigacija"
@@ -156,13 +165,15 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps) {
                 >
                   Apie
                 </Link>
-                <Link
-                  href="/#kontaktai"
-                  className={`${overlayLinkBase} ${hoverLikeCta}`}
-                  onClick={close}
-                >
-                  Susisiekime
-                </Link>
+                {SHOW_CONTACT_UI ? (
+                  <Link
+                    href="/#kontaktai"
+                    className={`${overlayLinkBase} ${hoverLikeCta}`}
+                    onClick={close}
+                  >
+                    Susisiekime
+                  </Link>
+                ) : null}
               </nav>
             </div>,
             document.body
