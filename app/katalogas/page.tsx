@@ -7,7 +7,7 @@ import SiteHeader from "../components/SiteHeader";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Automobilių katalogas — Rentalize",
+  title: "Automobilių katalogas — Kurb.lt",
   description:
     "Filtruokite ilgalaikės nuomos pasiūlymus pagal kainą, markę, kėbulo tipą ir tiekėją.",
 };
@@ -56,7 +56,7 @@ export default function KatalogasPage() {
           <Link href="/" className="font-medium text-gray-700 hover:text-gray-900">
             ← Grįžti į pradžią
           </Link>
-          <span>© {new Date().getFullYear()} Rentalize</span>
+          <span>© {new Date().getFullYear()} Kurb.lt</span>
         </div>
       </footer>
     </div>

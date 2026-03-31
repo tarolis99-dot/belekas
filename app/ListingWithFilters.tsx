@@ -55,20 +55,13 @@ const FILTERS_STORAGE_KEY = "rentalize_listing_filters_v1";
 /** Įjungti „Privatus (su PVM)“ / „Verslui (be PVM)“ perjungėją filtruose. */
 const SHOW_CUSTOMER_SEGMENT_TOGGLE = false;
 
+function displayBrand(brand: string): string {
+  return brand === "Škoda" ? "ŠKODA" : brand;
+}
+
 /** Kanoninis raktas filtrui: `markė|modelis` (kaip sąrašo grupavime). */
 function carModelKey(car: Car): string {
   return `${car.brand}|${getCanonicalModel(car.brand, car.model)}`;
-}
-
-function brandLogoPath(brand: string): string {
-  const slug = brand
-    .trim()
-    .normalize("NFD")
-    .replace(/\p{M}/gu, "")
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9-]/g, "");
-  return `/brand-logos/${slug}.png`;
 }
 
 export default function ListingWithFilters({ cars, listingImages }: { cars: Car[]; listingImages: ListingImages }) {
@@ -492,7 +485,6 @@ export default function ListingWithFilters({ cars, listingImages }: { cars: Car[
                 <div className="mt-2 space-y-1">
                 {brandModelTree.map(({ brand, models }) => {
                   const expanded = expandedBrands.has(brand);
-                  const logoSrc = brandLogoPath(brand);
                   return (
                     <div key={brand} className="border-b border-gray-50 pb-2 last:border-b-0 last:pb-0">
                       <div className="flex items-center gap-1">
@@ -503,18 +495,10 @@ export default function ListingWithFilters({ cars, listingImages }: { cars: Car[
                             onChange={() => toggleBrandSelection(brand)}
                             className="h-4 w-4 shrink-0 rounded-sm border-gray-300 text-black accent-[#39ff14] focus:ring-[#39ff14]/30"
                           />
-                          <span className={brands.has(brand) ? "font-medium text-black" : "text-gray-600"}>{brand}</span>
+                          <span className={brands.has(brand) ? "font-medium text-black" : "text-gray-600"}>
+                            {displayBrand(brand)}
+                          </span>
                         </label>
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
-                          src={logoSrc}
-                          alt=""
-                          className="h-6 w-6 shrink-0 rounded-full object-contain opacity-90"
-                          loading="lazy"
-                          onError={(e) => {
-                            e.currentTarget.style.visibility = "hidden";
-                          }}
-                        />
                         <button
                           type="button"
                           className="flex h-8 w-8 shrink-0 items-center justify-center rounded text-gray-500 hover:bg-gray-100 hover:text-gray-800"
@@ -688,7 +672,7 @@ export default function ListingWithFilters({ cars, listingImages }: { cars: Car[
                 </label>
               </div>
             </div>
-            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-4 grid auto-rows-fr gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {byModel.map(({ brand, model, minPrice, representative, offerCount }) => {
                 const key = `${brand}|${model}`;
                 const imgSrc =
@@ -702,25 +686,25 @@ export default function ListingWithFilters({ cars, listingImages }: { cars: Car[
                   <Link
                     key={representative.id}
                     href={`/automobilis/${representative.id}`}
-                    className="group flex flex-col overflow-hidden rounded-none bg-white transition-shadow hover:shadow-md"
+                    className="group flex h-full flex-col overflow-hidden rounded-none bg-white transition-shadow hover:shadow-md"
                   >
                     <div className="relative min-h-[10rem] flex-1 isolate overflow-hidden bg-[#fcfcfc]">
                       {imgSrc ? (
                         // eslint-disable-next-line @next/next/no-img-element
                         <img
                           src={imgSrc}
-                          alt={`${brand} ${model}`}
+                          alt={`${displayBrand(brand)} ${model}`}
                           className="h-full w-full object-contain object-center mix-blend-multiply transition group-hover:opacity-95"
                         />
                       ) : (
                         <div className="flex h-full w-full items-center justify-center px-6 text-center text-sm font-semibold text-gray-400">
-                          {brand} {model}
+                          {displayBrand(brand)} {model}
                         </div>
                       )}
                     </div>
                     <div className="flex flex-col border-t border-gray-100 bg-[#fcfcfc] p-4">
                       <h3 className="text-base font-bold leading-tight text-black">
-                        {brand} {model}
+                        {displayBrand(brand)} {model}
                       </h3>
                       <p className="mt-1 text-sm text-gray-500">
                         {representative.type || "—"}

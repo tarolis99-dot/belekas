@@ -110,7 +110,7 @@ export default function HomePage() {
                   href="/#vertė"
                   className="text-sm font-semibold text-gray-700 underline-offset-4 hover:text-gray-900 hover:underline"
                 >
-                  Kodėl Rentalize?
+                  Kodėl Kurb.lt?
                 </Link>
               </div>
 
@@ -305,7 +305,7 @@ export default function HomePage() {
 
       <footer className="border-t border-gray-100 bg-[#fafafa] py-10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 text-sm text-gray-500 sm:flex-row sm:px-6 lg:px-8">
-          <span>© {new Date().getFullYear()} Rentalize</span>
+          <span>© {new Date().getFullYear()} Kurb.lt</span>
           <Link href="/katalogas" className="font-medium text-gray-700 hover:text-gray-900">
             Automobilių katalogas
           </Link>

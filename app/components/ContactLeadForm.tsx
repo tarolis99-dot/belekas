@@ -15,7 +15,7 @@ export default function ContactLeadForm() {
     const name = String(data.get("name") || "").trim();
     const email = String(data.get("email") || "").trim();
     const message = String(data.get("message") || "").trim();
-    const subject = encodeURIComponent("Rentalize — individualus pasiūlymas");
+    const subject = encodeURIComponent("Kurb.lt — individualus pasiūlymas");
     const body = encodeURIComponent(`Vardas: ${name}\nEl. paštas: ${email}\n\n${message}`);
     const mailto = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
     try {

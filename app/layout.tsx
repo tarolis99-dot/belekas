@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rentalize — Ilgalaikė auto nuoma",
+  title: "Kurb.lt — Ilgalaikė auto nuoma",
   description:
-    "Rentalize — raskite pigiausią auto nuomą ilgam laikui. Palyginkite tiekėjus vienoje vietoje.",
+    "Kurb.lt — raskite pigiausią auto nuomą ilgam laikui. Palyginkite tiekėjus vienoje vietoje.",
 };
 
 export default function RootLayout({
