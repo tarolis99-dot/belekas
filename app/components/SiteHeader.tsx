@@ -175,6 +175,14 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps) {
                   </Link>
                 ) : null}
               </nav>
+              <div className="px-6 pb-10 text-center">
+                <a
+                  href="mailto:info@kurb.lt"
+                  className={`text-base font-semibold text-[#39ff14] underline-offset-4 transition hover:underline ${focusNeonDark}`}
+                >
+                  info@kurb.lt
+                </a>
+              </div>
             </div>,
             document.body
           )

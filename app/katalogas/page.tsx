@@ -52,11 +52,17 @@ export default function KatalogasPage() {
       </main>
 
       <footer className="border-t border-gray-100 bg-[#fcfcfc] py-8">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 text-sm text-gray-500 sm:flex-row sm:px-6 lg:px-8">
+        <div className="mx-auto grid max-w-7xl items-center gap-3 px-4 text-sm text-gray-500 sm:grid-cols-3 sm:px-6 lg:px-8">
           <Link href="/" className="font-medium text-gray-700 hover:text-gray-900">
             ← Grįžti į pradžią
           </Link>
-          <span>© {new Date().getFullYear()} Kurb.lt</span>
+          <a
+            href="mailto:info@kurb.lt"
+            className="text-center text-gray-500 underline-offset-4 transition hover:text-gray-700 hover:underline"
+          >
+            info@kurb.lt
+          </a>
+          <span className="text-center sm:text-right">© {new Date().getFullYear()} Kurb.lt</span>
         </div>
       </footer>
     </div>

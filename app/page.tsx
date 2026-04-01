@@ -304,9 +304,18 @@ export default function HomePage() {
       </main>
 
       <footer className="border-t border-gray-100 bg-[#fafafa] py-10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 text-sm text-gray-500 sm:flex-row sm:px-6 lg:px-8">
-          <span>© {new Date().getFullYear()} Kurb.lt</span>
-          <Link href="/katalogas" className="font-medium text-gray-700 hover:text-gray-900">
+        <div className="mx-auto grid max-w-7xl items-center gap-3 px-4 text-sm text-gray-500 sm:grid-cols-3 sm:px-6 lg:px-8">
+          <span className="text-center sm:text-left">© {new Date().getFullYear()} Kurb.lt</span>
+          <a
+            href="mailto:info@kurb.lt"
+            className="text-center text-gray-500 underline-offset-4 transition hover:text-gray-700 hover:underline"
+          >
+            info@kurb.lt
+          </a>
+          <Link
+            href="/katalogas"
+            className="text-center font-medium text-gray-700 transition hover:text-gray-900 sm:justify-self-end sm:text-right"
+          >
             Automobilių katalogas
           </Link>
         </div>
