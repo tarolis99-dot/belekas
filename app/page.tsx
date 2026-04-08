@@ -187,7 +187,7 @@ export default function HomePage() {
             </div>
             {/* Mobile: swipe (horizontalus scroll) */}
             <div
-              className="mt-10 -mx-4 flex gap-4 overflow-x-auto overflow-y-hidden px-4 pb-3 sm:hidden snap-x snap-mandatory touch-pan-x overscroll-x-contain [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+              className="mt-10 -mx-4 flex gap-4 overflow-x-auto overflow-y-hidden px-4 pb-3 sm:hidden snap-x snap-mandatory overscroll-x-contain [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
               role="region"
               aria-label="Populiarūs modeliai – slinkite horizontaliai"
             >
