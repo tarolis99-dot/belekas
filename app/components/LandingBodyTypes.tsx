@@ -68,7 +68,7 @@ export default function LandingBodyTypes() {
 
         {/* Mobile: swipe (horizontalus scroll) */}
         <div
-          className="mt-10 -mx-4 flex gap-4 overflow-x-auto overflow-y-hidden px-4 pb-3 pt-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden snap-x snap-mandatory touch-pan-x overscroll-x-contain sm:hidden"
+          className="mt-10 -mx-4 flex gap-4 overflow-x-auto overflow-y-hidden px-4 pb-3 pt-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden snap-x snap-mandatory overscroll-x-contain sm:hidden"
           role="region"
           aria-label="Kėbulo tipai – slinkite horizontaliai"
         >
